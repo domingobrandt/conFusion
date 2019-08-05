@@ -14,3 +14,4 @@ Go to a convenient location on your computer and create a folder named Ionic. Th
 To scaffold out a new Ionic project, type the following at the command prompt:
 
              $ ionic start conFusion sidemenu
+
