@@ -17,3 +17,4 @@ To scaffold out a new Ionic project, type the following at the command prompt:
              
 First generate three new pages and add them to the app by typing the following at the prompt:
 
+hola
