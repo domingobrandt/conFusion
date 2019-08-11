@@ -1,6 +1,5 @@
 # Ionic
 ConFusion Docs 
-two Branch : Master and Initial, Master is old or work well initial begin fix the code. 
 
    * Setting up the Ionic Framework
         To install the Ionic framework's command line interface (CLI) and Cordova, at the prompt type:
@@ -16,6 +15,7 @@ If you are installing on OSX or Linux, make sure to precede with sudo.
                 $ ionic start conFusion sidemenu
              
     * First generate three new pages and add them to the app by typing the following at the prompt:
+
 
             ionic g page about
             ionic g page menu
