@@ -14,9 +14,29 @@ If you are installing on OSX or Linux, make sure to precede with sudo.
 
                 $ ionic start conFusion sidemenu
              
-    * First generate three new pages and add them to the app by typing the following at the prompt:
+    * Shared folder in the src: recibe the data json-server is up and running.
 
 
-            ionic g page about
-            ionic g page menu
-            ionic g page contact
+## To see the resulting project in your browser, type the following at the command prompt:
+         ionic serve --lab
+    Run ionic serve 
+
+##Error
+* “has no exported member 'Observable'”
+
+ Run:
+   
+        npm install rxjs-compat --save    
+
+* "Cannot find module '@angular/http'"
+
+        npm i @angular/http
+
+    to install. Should fix it.
+
+* ERROR in src/app/home/home.page.ts:2:31 - error TS2307: Cannot find module 'ionic-angular'.
+[ng] 2 import { NavController } from 'ionic-angular';
+     change:
+     import { NavController } from 'ionic-angular';
+     for 
+     import { NavController } from '@ionic/angular';
